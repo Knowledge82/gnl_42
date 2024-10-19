@@ -4,7 +4,7 @@
 # include <stdlib.h>
 # include <unistd.h>  // для использования функции read()
 # ifndef BUFFER_SIZE
-# define BUFFER_SIZE 10
+# define BUFFER_SIZE 5
 # endif
 // Функции, которые используются в get_next_line.c
 char    *get_next_line(int fd);

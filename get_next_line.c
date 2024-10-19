@@ -77,7 +77,6 @@ char    *get_next_line(int fd)
 
         if (fd < 0 || BUFFER_SIZE <= 0)
                 return (NULL);
-				//printf("Calling read_from_fd...\n");
         stored = read_from_fd(fd, stored);
         if (!stored)
                 return (NULL);

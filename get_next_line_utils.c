@@ -34,8 +34,6 @@ char    *ft_strjoin(char const *s1, char const *s2)
         size_t  s1_len;
         size_t  s2_len;
 
-        if (!s1 && !s2)
-                return (NULL);
         if (s1 == NULL)
                 s1_len = 0;
         else
